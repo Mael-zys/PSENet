@@ -1,0 +1,278 @@
+checkpoint path: checkpoints/ctw1500_resnet50_bs_8_ep_30_pretrain_ic17
+init lr: 0.00001000
+schedule:  [10, 20]
+Using pretrained model.
+
+Epoch: [1 | 30] LR: 0.000010
+/home/zhangyangsong/env1/lib/python3.6/site-packages/torch/nn/functional.py:2416: UserWarning: nn.functional.upsample is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.functional.upsample is deprecated. Use nn.functional.interpolate instead.")
+/home/zhangyangsong/env1/lib/python3.6/site-packages/torch/nn/functional.py:2506: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode))
+(1/125) Batch: 6.194s | TOTAL: 0min | ETA: 13min | Loss: 0.0657 | Acc_t:  0.9454 | IOU_t:  0.9150 | IOU_k:  0.8830
+(21/125) Batch: 1.307s | TOTAL: 0min | ETA: 2min | Loss: 0.1804 | Acc_t:  0.9415 | IOU_t:  0.8982 | IOU_k:  0.8810
+(41/125) Batch: 1.202s | TOTAL: 1min | ETA: 2min | Loss: 0.1647 | Acc_t:  0.9427 | IOU_t:  0.8960 | IOU_k:  0.8801
+(61/125) Batch: 1.164s | TOTAL: 1min | ETA: 1min | Loss: 0.1568 | Acc_t:  0.9388 | IOU_t:  0.8931 | IOU_k:  0.8749
+(81/125) Batch: 1.142s | TOTAL: 2min | ETA: 1min | Loss: 0.1667 | Acc_t:  0.9376 | IOU_t:  0.8900 | IOU_k:  0.8744
+(101/125) Batch: 1.130s | TOTAL: 2min | ETA: 0min | Loss: 0.1701 | Acc_t:  0.9357 | IOU_t:  0.8858 | IOU_k:  0.8730
+(121/125) Batch: 1.120s | TOTAL: 2min | ETA: 0min | Loss: 0.1804 | Acc_t:  0.9314 | IOU_t:  0.8775 | IOU_k:  0.8686
+
+Epoch: [2 | 30] LR: 0.000010
+(1/125) Batch: 3.503s | TOTAL: 0min | ETA: 7min | Loss: 0.1869 | Acc_t:  0.9375 | IOU_t:  0.9100 | IOU_k:  0.8639
+(21/125) Batch: 1.220s | TOTAL: 0min | ETA: 2min | Loss: 0.1829 | Acc_t:  0.9304 | IOU_t:  0.8762 | IOU_k:  0.8710
+(41/125) Batch: 1.143s | TOTAL: 1min | ETA: 2min | Loss: 0.1827 | Acc_t:  0.9312 | IOU_t:  0.8754 | IOU_k:  0.8720
+(61/125) Batch: 1.119s | TOTAL: 1min | ETA: 1min | Loss: 0.1964 | Acc_t:  0.9288 | IOU_t:  0.8722 | IOU_k:  0.8702
+(81/125) Batch: 1.108s | TOTAL: 1min | ETA: 1min | Loss: 0.2012 | Acc_t:  0.9319 | IOU_t:  0.8768 | IOU_k:  0.8731
+(101/125) Batch: 1.100s | TOTAL: 2min | ETA: 0min | Loss: 0.1909 | Acc_t:  0.9317 | IOU_t:  0.8776 | IOU_k:  0.8731
+(121/125) Batch: 1.097s | TOTAL: 2min | ETA: 0min | Loss: 0.1923 | Acc_t:  0.9323 | IOU_t:  0.8783 | IOU_k:  0.8737
+
+Epoch: [3 | 30] LR: 0.000010
+(1/125) Batch: 2.702s | TOTAL: 0min | ETA: 6min | Loss: 0.1761 | Acc_t:  0.9621 | IOU_t:  0.9228 | IOU_k:  0.8218
+(21/125) Batch: 1.190s | TOTAL: 0min | ETA: 2min | Loss: 0.1666 | Acc_t:  0.9252 | IOU_t:  0.8793 | IOU_k:  0.8666
+(41/125) Batch: 1.139s | TOTAL: 1min | ETA: 2min | Loss: 0.1706 | Acc_t:  0.9299 | IOU_t:  0.8779 | IOU_k:  0.8699
+(61/125) Batch: 1.121s | TOTAL: 1min | ETA: 1min | Loss: 0.1781 | Acc_t:  0.9318 | IOU_t:  0.8830 | IOU_k:  0.8736
+(81/125) Batch: 1.111s | TOTAL: 1min | ETA: 1min | Loss: 0.1757 | Acc_t:  0.9312 | IOU_t:  0.8814 | IOU_k:  0.8708
+(101/125) Batch: 1.109s | TOTAL: 2min | ETA: 0min | Loss: 0.1779 | Acc_t:  0.9303 | IOU_t:  0.8802 | IOU_k:  0.8704
+(121/125) Batch: 1.123s | TOTAL: 2min | ETA: 0min | Loss: 0.1725 | Acc_t:  0.9321 | IOU_t:  0.8818 | IOU_k:  0.8719
+
+Epoch: [4 | 30] LR: 0.000010
+(1/125) Batch: 4.029s | TOTAL: 0min | ETA: 8min | Loss: 0.3470 | Acc_t:  0.8934 | IOU_t:  0.8173 | IOU_k:  0.8513
+(21/125) Batch: 1.267s | TOTAL: 0min | ETA: 2min | Loss: 0.1661 | Acc_t:  0.9299 | IOU_t:  0.8782 | IOU_k:  0.8646
+(41/125) Batch: 1.179s | TOTAL: 1min | ETA: 2min | Loss: 0.1935 | Acc_t:  0.9245 | IOU_t:  0.8762 | IOU_k:  0.8653
+(61/125) Batch: 1.155s | TOTAL: 1min | ETA: 1min | Loss: 0.1770 | Acc_t:  0.9311 | IOU_t:  0.8841 | IOU_k:  0.8746
+(81/125) Batch: 1.139s | TOTAL: 2min | ETA: 1min | Loss: 0.1846 | Acc_t:  0.9321 | IOU_t:  0.8852 | IOU_k:  0.8753
+(101/125) Batch: 1.130s | TOTAL: 2min | ETA: 0min | Loss: 0.1848 | Acc_t:  0.9326 | IOU_t:  0.8859 | IOU_k:  0.8754
+(121/125) Batch: 1.125s | TOTAL: 2min | ETA: 0min | Loss: 0.1855 | Acc_t:  0.9332 | IOU_t:  0.8865 | IOU_k:  0.8741
+
+Epoch: [5 | 30] LR: 0.000010
+(1/125) Batch: 4.275s | TOTAL: 0min | ETA: 9min | Loss: 0.2939 | Acc_t:  0.9380 | IOU_t:  0.8623 | IOU_k:  0.9081
+(21/125) Batch: 1.235s | TOTAL: 0min | ETA: 2min | Loss: 0.2228 | Acc_t:  0.9435 | IOU_t:  0.8940 | IOU_k:  0.8907
+(41/125) Batch: 1.161s | TOTAL: 1min | ETA: 2min | Loss: 0.2107 | Acc_t:  0.9358 | IOU_t:  0.8832 | IOU_k:  0.8790
+(61/125) Batch: 1.140s | TOTAL: 1min | ETA: 1min | Loss: 0.1974 | Acc_t:  0.9386 | IOU_t:  0.8877 | IOU_k:  0.8799
+(81/125) Batch: 1.130s | TOTAL: 2min | ETA: 1min | Loss: 0.1961 | Acc_t:  0.9376 | IOU_t:  0.8869 | IOU_k:  0.8785
+(101/125) Batch: 1.120s | TOTAL: 2min | ETA: 0min | Loss: 0.1930 | Acc_t:  0.9378 | IOU_t:  0.8876 | IOU_k:  0.8784
+(121/125) Batch: 1.113s | TOTAL: 2min | ETA: 0min | Loss: 0.1905 | Acc_t:  0.9389 | IOU_t:  0.8895 | IOU_k:  0.8797
+
+Epoch: [6 | 30] LR: 0.000010
+(1/125) Batch: 4.057s | TOTAL: 0min | ETA: 8min | Loss: 0.1789 | Acc_t:  0.9618 | IOU_t:  0.8960 | IOU_k:  0.9172
+(21/125) Batch: 1.245s | TOTAL: 0min | ETA: 2min | Loss: 0.1523 | Acc_t:  0.9369 | IOU_t:  0.8789 | IOU_k:  0.8769
+(41/125) Batch: 1.166s | TOTAL: 1min | ETA: 2min | Loss: 0.1610 | Acc_t:  0.9355 | IOU_t:  0.8815 | IOU_k:  0.8718
+(61/125) Batch: 1.140s | TOTAL: 1min | ETA: 1min | Loss: 0.1622 | Acc_t:  0.9355 | IOU_t:  0.8824 | IOU_k:  0.8745
+(81/125) Batch: 1.126s | TOTAL: 2min | ETA: 1min | Loss: 0.1736 | Acc_t:  0.9367 | IOU_t:  0.8848 | IOU_k:  0.8747
+(101/125) Batch: 1.117s | TOTAL: 2min | ETA: 0min | Loss: 0.1810 | Acc_t:  0.9335 | IOU_t:  0.8788 | IOU_k:  0.8725
+(121/125) Batch: 1.111s | TOTAL: 2min | ETA: 0min | Loss: 0.1833 | Acc_t:  0.9343 | IOU_t:  0.8802 | IOU_k:  0.8744
+
+Epoch: [7 | 30] LR: 0.000010
+(1/125) Batch: 3.717s | TOTAL: 0min | ETA: 8min | Loss: 0.0782 | Acc_t:  0.9599 | IOU_t:  0.9099 | IOU_k:  0.8614
+(21/125) Batch: 1.244s | TOTAL: 0min | ETA: 2min | Loss: 0.1794 | Acc_t:  0.9201 | IOU_t:  0.8590 | IOU_k:  0.8624
+(41/125) Batch: 1.170s | TOTAL: 1min | ETA: 2min | Loss: 0.1688 | Acc_t:  0.9294 | IOU_t:  0.8787 | IOU_k:  0.8716
+(61/125) Batch: 1.144s | TOTAL: 1min | ETA: 1min | Loss: 0.1760 | Acc_t:  0.9299 | IOU_t:  0.8825 | IOU_k:  0.8664
+(81/125) Batch: 1.126s | TOTAL: 2min | ETA: 1min | Loss: 0.1880 | Acc_t:  0.9312 | IOU_t:  0.8837 | IOU_k:  0.8701
+(101/125) Batch: 1.117s | TOTAL: 2min | ETA: 0min | Loss: 0.1838 | Acc_t:  0.9294 | IOU_t:  0.8828 | IOU_k:  0.8712
+(121/125) Batch: 1.110s | TOTAL: 2min | ETA: 0min | Loss: 0.1868 | Acc_t:  0.9316 | IOU_t:  0.8856 | IOU_k:  0.8745
+
+Epoch: [8 | 30] LR: 0.000010
+(1/125) Batch: 2.917s | TOTAL: 0min | ETA: 6min | Loss: 0.2238 | Acc_t:  0.8806 | IOU_t:  0.8428 | IOU_k:  0.8076
+(21/125) Batch: 1.186s | TOTAL: 0min | ETA: 2min | Loss: 0.1533 | Acc_t:  0.9337 | IOU_t:  0.8895 | IOU_k:  0.8646
+(41/125) Batch: 1.138s | TOTAL: 1min | ETA: 2min | Loss: 0.1547 | Acc_t:  0.9317 | IOU_t:  0.8862 | IOU_k:  0.8607
+(61/125) Batch: 1.129s | TOTAL: 1min | ETA: 1min | Loss: 0.1649 | Acc_t:  0.9354 | IOU_t:  0.8883 | IOU_k:  0.8670
+(81/125) Batch: 1.131s | TOTAL: 2min | ETA: 1min | Loss: 0.1736 | Acc_t:  0.9324 | IOU_t:  0.8800 | IOU_k:  0.8700
+(101/125) Batch: 1.127s | TOTAL: 2min | ETA: 0min | Loss: 0.1711 | Acc_t:  0.9327 | IOU_t:  0.8797 | IOU_k:  0.8699
+(121/125) Batch: 1.122s | TOTAL: 2min | ETA: 0min | Loss: 0.1793 | Acc_t:  0.9327 | IOU_t:  0.8803 | IOU_k:  0.8706
+
+Epoch: [9 | 30] LR: 0.000010
+(1/125) Batch: 4.287s | TOTAL: 0min | ETA: 9min | Loss: 0.1144 | Acc_t:  0.9475 | IOU_t:  0.8938 | IOU_k:  0.9059
+(21/125) Batch: 1.253s | TOTAL: 0min | ETA: 2min | Loss: 0.1943 | Acc_t:  0.9396 | IOU_t:  0.8950 | IOU_k:  0.8783
+(41/125) Batch: 1.165s | TOTAL: 1min | ETA: 2min | Loss: 0.1860 | Acc_t:  0.9392 | IOU_t:  0.8950 | IOU_k:  0.8784
+(61/125) Batch: 1.138s | TOTAL: 1min | ETA: 1min | Loss: 0.1793 | Acc_t:  0.9368 | IOU_t:  0.8935 | IOU_k:  0.8779
+(81/125) Batch: 1.122s | TOTAL: 1min | ETA: 1min | Loss: 0.1859 | Acc_t:  0.9384 | IOU_t:  0.8943 | IOU_k:  0.8805
+(101/125) Batch: 1.114s | TOTAL: 2min | ETA: 0min | Loss: 0.1845 | Acc_t:  0.9368 | IOU_t:  0.8883 | IOU_k:  0.8801
+(121/125) Batch: 1.108s | TOTAL: 2min | ETA: 0min | Loss: 0.1826 | Acc_t:  0.9346 | IOU_t:  0.8841 | IOU_k:  0.8782
+
+Epoch: [10 | 30] LR: 0.000010
+(1/125) Batch: 3.607s | TOTAL: 0min | ETA: 8min | Loss: 0.2139 | Acc_t:  0.9255 | IOU_t:  0.8886 | IOU_k:  0.8094
+(21/125) Batch: 1.204s | TOTAL: 0min | ETA: 2min | Loss: 0.1640 | Acc_t:  0.9411 | IOU_t:  0.8915 | IOU_k:  0.8785
+(41/125) Batch: 1.137s | TOTAL: 1min | ETA: 2min | Loss: 0.1791 | Acc_t:  0.9407 | IOU_t:  0.8917 | IOU_k:  0.8771
+(61/125) Batch: 1.122s | TOTAL: 1min | ETA: 1min | Loss: 0.1859 | Acc_t:  0.9323 | IOU_t:  0.8836 | IOU_k:  0.8691
+(81/125) Batch: 1.114s | TOTAL: 1min | ETA: 1min | Loss: 0.1895 | Acc_t:  0.9338 | IOU_t:  0.8845 | IOU_k:  0.8727
+(101/125) Batch: 1.107s | TOTAL: 2min | ETA: 0min | Loss: 0.1907 | Acc_t:  0.9317 | IOU_t:  0.8832 | IOU_k:  0.8710
+(121/125) Batch: 1.104s | TOTAL: 2min | ETA: 0min | Loss: 0.1904 | Acc_t:  0.9313 | IOU_t:  0.8827 | IOU_k:  0.8698
+
+Epoch: [11 | 30] LR: 0.000001
+(1/125) Batch: 3.122s | TOTAL: 0min | ETA: 7min | Loss: 0.2711 | Acc_t:  0.9242 | IOU_t:  0.8619 | IOU_k:  0.8595
+(21/125) Batch: 1.261s | TOTAL: 0min | ETA: 2min | Loss: 0.1887 | Acc_t:  0.9293 | IOU_t:  0.8763 | IOU_k:  0.8735
+(41/125) Batch: 1.168s | TOTAL: 1min | ETA: 2min | Loss: 0.1825 | Acc_t:  0.9340 | IOU_t:  0.8806 | IOU_k:  0.8755
+(61/125) Batch: 1.140s | TOTAL: 1min | ETA: 1min | Loss: 0.1870 | Acc_t:  0.9337 | IOU_t:  0.8818 | IOU_k:  0.8737
+(81/125) Batch: 1.124s | TOTAL: 1min | ETA: 1min | Loss: 0.1852 | Acc_t:  0.9329 | IOU_t:  0.8807 | IOU_k:  0.8758
+(101/125) Batch: 1.117s | TOTAL: 2min | ETA: 0min | Loss: 0.1801 | Acc_t:  0.9351 | IOU_t:  0.8843 | IOU_k:  0.8768
+(121/125) Batch: 1.112s | TOTAL: 2min | ETA: 0min | Loss: 0.1784 | Acc_t:  0.9358 | IOU_t:  0.8849 | IOU_k:  0.8768
+
+Epoch: [12 | 30] LR: 0.000001
+(1/125) Batch: 3.700s | TOTAL: 0min | ETA: 8min | Loss: 0.1827 | Acc_t:  0.9446 | IOU_t:  0.9167 | IOU_k:  0.8601
+(21/125) Batch: 1.273s | TOTAL: 0min | ETA: 2min | Loss: 0.1741 | Acc_t:  0.9395 | IOU_t:  0.8921 | IOU_k:  0.8857
+(41/125) Batch: 1.181s | TOTAL: 1min | ETA: 2min | Loss: 0.1672 | Acc_t:  0.9363 | IOU_t:  0.8896 | IOU_k:  0.8767
+(61/125) Batch: 1.154s | TOTAL: 1min | ETA: 1min | Loss: 0.1797 | Acc_t:  0.9334 | IOU_t:  0.8866 | IOU_k:  0.8738
+(81/125) Batch: 1.140s | TOTAL: 2min | ETA: 1min | Loss: 0.1820 | Acc_t:  0.9323 | IOU_t:  0.8861 | IOU_k:  0.8737
+(101/125) Batch: 1.135s | TOTAL: 2min | ETA: 0min | Loss: 0.1790 | Acc_t:  0.9350 | IOU_t:  0.8899 | IOU_k:  0.8758
+(121/125) Batch: 1.129s | TOTAL: 2min | ETA: 0min | Loss: 0.1783 | Acc_t:  0.9323 | IOU_t:  0.8851 | IOU_k:  0.8748
+
+Epoch: [13 | 30] LR: 0.000001
+(1/125) Batch: 2.824s | TOTAL: 0min | ETA: 6min | Loss: 0.0635 | Acc_t:  0.9491 | IOU_t:  0.9191 | IOU_k:  0.8302
+(21/125) Batch: 1.200s | TOTAL: 0min | ETA: 2min | Loss: 0.1801 | Acc_t:  0.9371 | IOU_t:  0.8768 | IOU_k:  0.8821
+(41/125) Batch: 1.139s | TOTAL: 1min | ETA: 2min | Loss: 0.2023 | Acc_t:  0.9316 | IOU_t:  0.8765 | IOU_k:  0.8763
+(61/125) Batch: 1.132s | TOTAL: 1min | ETA: 1min | Loss: 0.1880 | Acc_t:  0.9346 | IOU_t:  0.8788 | IOU_k:  0.8776
+(81/125) Batch: 1.125s | TOTAL: 1min | ETA: 1min | Loss: 0.1884 | Acc_t:  0.9359 | IOU_t:  0.8804 | IOU_k:  0.8800
+(101/125) Batch: 1.120s | TOTAL: 2min | ETA: 0min | Loss: 0.1867 | Acc_t:  0.9308 | IOU_t:  0.8758 | IOU_k:  0.8769
+(121/125) Batch: 1.116s | TOTAL: 2min | ETA: 0min | Loss: 0.1900 | Acc_t:  0.9297 | IOU_t:  0.8732 | IOU_k:  0.8740
+
+Epoch: [14 | 30] LR: 0.000001
+(1/125) Batch: 3.713s | TOTAL: 0min | ETA: 8min | Loss: 0.2213 | Acc_t:  0.9102 | IOU_t:  0.8397 | IOU_k:  0.8560
+(21/125) Batch: 1.210s | TOTAL: 0min | ETA: 2min | Loss: 0.1692 | Acc_t:  0.9326 | IOU_t:  0.8865 | IOU_k:  0.8643
+(41/125) Batch: 1.153s | TOTAL: 1min | ETA: 2min | Loss: 0.1592 | Acc_t:  0.9381 | IOU_t:  0.8951 | IOU_k:  0.8689
+(61/125) Batch: 1.132s | TOTAL: 1min | ETA: 1min | Loss: 0.1637 | Acc_t:  0.9378 | IOU_t:  0.8925 | IOU_k:  0.8727
+(81/125) Batch: 1.121s | TOTAL: 1min | ETA: 1min | Loss: 0.1730 | Acc_t:  0.9371 | IOU_t:  0.8908 | IOU_k:  0.8714
+(101/125) Batch: 1.113s | TOTAL: 2min | ETA: 0min | Loss: 0.1823 | Acc_t:  0.9368 | IOU_t:  0.8899 | IOU_k:  0.8729
+(121/125) Batch: 1.111s | TOTAL: 2min | ETA: 0min | Loss: 0.1800 | Acc_t:  0.9361 | IOU_t:  0.8882 | IOU_k:  0.8740
+
+Epoch: [15 | 30] LR: 0.000001
+(1/125) Batch: 4.052s | TOTAL: 0min | ETA: 8min | Loss: 0.0698 | Acc_t:  0.9523 | IOU_t:  0.9084 | IOU_k:  0.8690
+(21/125) Batch: 1.226s | TOTAL: 0min | ETA: 2min | Loss: 0.1785 | Acc_t:  0.9310 | IOU_t:  0.8806 | IOU_k:  0.8713
+(41/125) Batch: 1.164s | TOTAL: 1min | ETA: 2min | Loss: 0.1746 | Acc_t:  0.9287 | IOU_t:  0.8762 | IOU_k:  0.8645
+(61/125) Batch: 1.149s | TOTAL: 1min | ETA: 1min | Loss: 0.1859 | Acc_t:  0.9310 | IOU_t:  0.8805 | IOU_k:  0.8678
+(81/125) Batch: 1.223s | TOTAL: 2min | ETA: 1min | Loss: 0.1826 | Acc_t:  0.9341 | IOU_t:  0.8850 | IOU_k:  0.8733
+(101/125) Batch: 1.445s | TOTAL: 2min | ETA: 1min | Loss: 0.1802 | Acc_t:  0.9305 | IOU_t:  0.8807 | IOU_k:  0.8722
+(121/125) Batch: 1.398s | TOTAL: 3min | ETA: 0min | Loss: 0.1776 | Acc_t:  0.9312 | IOU_t:  0.8797 | IOU_k:  0.8738
+
+Epoch: [16 | 30] LR: 0.000001
+(1/125) Batch: 3.234s | TOTAL: 0min | ETA: 7min | Loss: 0.1814 | Acc_t:  0.9694 | IOU_t:  0.9250 | IOU_k:  0.8663
+(21/125) Batch: 1.214s | TOTAL: 0min | ETA: 2min | Loss: 0.2053 | Acc_t:  0.9388 | IOU_t:  0.8903 | IOU_k:  0.8764
+(41/125) Batch: 1.150s | TOTAL: 1min | ETA: 2min | Loss: 0.1787 | Acc_t:  0.9407 | IOU_t:  0.8949 | IOU_k:  0.8749
+(61/125) Batch: 1.128s | TOTAL: 1min | ETA: 1min | Loss: 0.1914 | Acc_t:  0.9385 | IOU_t:  0.8921 | IOU_k:  0.8757
+(81/125) Batch: 1.129s | TOTAL: 2min | ETA: 1min | Loss: 0.1935 | Acc_t:  0.9376 | IOU_t:  0.8888 | IOU_k:  0.8760
+(101/125) Batch: 1.123s | TOTAL: 2min | ETA: 0min | Loss: 0.1863 | Acc_t:  0.9368 | IOU_t:  0.8892 | IOU_k:  0.8759
+(121/125) Batch: 1.117s | TOTAL: 2min | ETA: 0min | Loss: 0.1902 | Acc_t:  0.9348 | IOU_t:  0.8874 | IOU_k:  0.8740
+
+Epoch: [17 | 30] LR: 0.000001
+(1/125) Batch: 3.303s | TOTAL: 0min | ETA: 7min | Loss: 0.2484 | Acc_t:  0.9298 | IOU_t:  0.8753 | IOU_k:  0.8424
+(21/125) Batch: 1.238s | TOTAL: 0min | ETA: 2min | Loss: 0.1748 | Acc_t:  0.9336 | IOU_t:  0.8890 | IOU_k:  0.8819
+(41/125) Batch: 1.163s | TOTAL: 1min | ETA: 2min | Loss: 0.1773 | Acc_t:  0.9385 | IOU_t:  0.8922 | IOU_k:  0.8828
+(61/125) Batch: 1.142s | TOTAL: 1min | ETA: 1min | Loss: 0.1675 | Acc_t:  0.9352 | IOU_t:  0.8891 | IOU_k:  0.8802
+(81/125) Batch: 1.132s | TOTAL: 2min | ETA: 1min | Loss: 0.1733 | Acc_t:  0.9352 | IOU_t:  0.8879 | IOU_k:  0.8814
+(101/125) Batch: 1.127s | TOTAL: 2min | ETA: 0min | Loss: 0.1714 | Acc_t:  0.9358 | IOU_t:  0.8870 | IOU_k:  0.8783
+(121/125) Batch: 1.121s | TOTAL: 2min | ETA: 0min | Loss: 0.1678 | Acc_t:  0.9365 | IOU_t:  0.8879 | IOU_k:  0.8780
+
+Epoch: [18 | 30] LR: 0.000001
+(1/125) Batch: 2.838s | TOTAL: 0min | ETA: 6min | Loss: 0.0802 | Acc_t:  0.9610 | IOU_t:  0.9182 | IOU_k:  0.8613
+(21/125) Batch: 1.182s | TOTAL: 0min | ETA: 2min | Loss: 0.1478 | Acc_t:  0.9416 | IOU_t:  0.8909 | IOU_k:  0.8745
+(41/125) Batch: 1.138s | TOTAL: 1min | ETA: 2min | Loss: 0.1550 | Acc_t:  0.9409 | IOU_t:  0.8931 | IOU_k:  0.8748
+(61/125) Batch: 1.120s | TOTAL: 1min | ETA: 1min | Loss: 0.1611 | Acc_t:  0.9421 | IOU_t:  0.8948 | IOU_k:  0.8771
+(81/125) Batch: 1.110s | TOTAL: 1min | ETA: 1min | Loss: 0.1834 | Acc_t:  0.9367 | IOU_t:  0.8868 | IOU_k:  0.8756
+(101/125) Batch: 1.106s | TOTAL: 2min | ETA: 0min | Loss: 0.1828 | Acc_t:  0.9363 | IOU_t:  0.8874 | IOU_k:  0.8739
+(121/125) Batch: 1.104s | TOTAL: 2min | ETA: 0min | Loss: 0.1810 | Acc_t:  0.9376 | IOU_t:  0.8888 | IOU_k:  0.8756
+
+Epoch: [19 | 30] LR: 0.000001
+(1/125) Batch: 3.267s | TOTAL: 0min | ETA: 7min | Loss: 0.1067 | Acc_t:  0.9462 | IOU_t:  0.8970 | IOU_k:  0.8630
+(21/125) Batch: 1.181s | TOTAL: 0min | ETA: 2min | Loss: 0.1789 | Acc_t:  0.9309 | IOU_t:  0.8801 | IOU_k:  0.8575
+(41/125) Batch: 1.137s | TOTAL: 1min | ETA: 2min | Loss: 0.1853 | Acc_t:  0.9349 | IOU_t:  0.8847 | IOU_k:  0.8667
+(61/125) Batch: 1.122s | TOTAL: 1min | ETA: 1min | Loss: 0.1839 | Acc_t:  0.9340 | IOU_t:  0.8838 | IOU_k:  0.8698
+(81/125) Batch: 1.109s | TOTAL: 1min | ETA: 1min | Loss: 0.1918 | Acc_t:  0.9350 | IOU_t:  0.8869 | IOU_k:  0.8726
+(101/125) Batch: 1.103s | TOTAL: 2min | ETA: 0min | Loss: 0.1927 | Acc_t:  0.9366 | IOU_t:  0.8897 | IOU_k:  0.8757
+(121/125) Batch: 1.102s | TOTAL: 2min | ETA: 0min | Loss: 0.1887 | Acc_t:  0.9345 | IOU_t:  0.8862 | IOU_k:  0.8741
+
+Epoch: [20 | 30] LR: 0.000001
+(1/125) Batch: 2.903s | TOTAL: 0min | ETA: 6min | Loss: 0.0595 | Acc_t:  0.9616 | IOU_t:  0.9297 | IOU_k:  0.9158
+(21/125) Batch: 1.176s | TOTAL: 0min | ETA: 2min | Loss: 0.1478 | Acc_t:  0.9433 | IOU_t:  0.9006 | IOU_k:  0.8803
+(41/125) Batch: 1.133s | TOTAL: 1min | ETA: 2min | Loss: 0.1716 | Acc_t:  0.9351 | IOU_t:  0.8890 | IOU_k:  0.8729
+(61/125) Batch: 1.184s | TOTAL: 1min | ETA: 1min | Loss: 0.1816 | Acc_t:  0.9322 | IOU_t:  0.8834 | IOU_k:  0.8695
+(81/125) Batch: 1.332s | TOTAL: 2min | ETA: 1min | Loss: 0.1879 | Acc_t:  0.9309 | IOU_t:  0.8819 | IOU_k:  0.8704
+(101/125) Batch: 1.326s | TOTAL: 2min | ETA: 1min | Loss: 0.1783 | Acc_t:  0.9326 | IOU_t:  0.8850 | IOU_k:  0.8736
+(121/125) Batch: 1.431s | TOTAL: 3min | ETA: 0min | Loss: 0.1874 | Acc_t:  0.9317 | IOU_t:  0.8848 | IOU_k:  0.8717
+
+Epoch: [21 | 30] LR: 0.000000
+(1/125) Batch: 7.602s | TOTAL: 0min | ETA: 16min | Loss: 0.1984 | Acc_t:  0.9522 | IOU_t:  0.9223 | IOU_k:  0.8372
+(21/125) Batch: 1.480s | TOTAL: 0min | ETA: 3min | Loss: 0.1862 | Acc_t:  0.9187 | IOU_t:  0.8730 | IOU_k:  0.8609
+(41/125) Batch: 1.301s | TOTAL: 1min | ETA: 2min | Loss: 0.1795 | Acc_t:  0.9257 | IOU_t:  0.8785 | IOU_k:  0.8651
+(61/125) Batch: 1.232s | TOTAL: 1min | ETA: 1min | Loss: 0.1802 | Acc_t:  0.9302 | IOU_t:  0.8816 | IOU_k:  0.8687
+(81/125) Batch: 1.196s | TOTAL: 2min | ETA: 1min | Loss: 0.1849 | Acc_t:  0.9297 | IOU_t:  0.8806 | IOU_k:  0.8690
+(101/125) Batch: 1.176s | TOTAL: 2min | ETA: 0min | Loss: 0.1888 | Acc_t:  0.9286 | IOU_t:  0.8777 | IOU_k:  0.8675
+(121/125) Batch: 1.161s | TOTAL: 2min | ETA: 0min | Loss: 0.1866 | Acc_t:  0.9296 | IOU_t:  0.8790 | IOU_k:  0.8695
+
+Epoch: [22 | 30] LR: 0.000000
+(1/125) Batch: 2.640s | TOTAL: 0min | ETA: 6min | Loss: 0.0696 | Acc_t:  0.9544 | IOU_t:  0.9149 | IOU_k:  0.9049
+(21/125) Batch: 1.172s | TOTAL: 0min | ETA: 2min | Loss: 0.1661 | Acc_t:  0.9435 | IOU_t:  0.8990 | IOU_k:  0.8811
+(41/125) Batch: 1.128s | TOTAL: 1min | ETA: 2min | Loss: 0.1627 | Acc_t:  0.9444 | IOU_t:  0.8980 | IOU_k:  0.8829
+(61/125) Batch: 1.123s | TOTAL: 1min | ETA: 1min | Loss: 0.1749 | Acc_t:  0.9279 | IOU_t:  0.8773 | IOU_k:  0.8672
+(81/125) Batch: 1.115s | TOTAL: 1min | ETA: 1min | Loss: 0.1810 | Acc_t:  0.9287 | IOU_t:  0.8780 | IOU_k:  0.8676
+(101/125) Batch: 1.110s | TOTAL: 2min | ETA: 0min | Loss: 0.1814 | Acc_t:  0.9299 | IOU_t:  0.8771 | IOU_k:  0.8706
+(121/125) Batch: 1.106s | TOTAL: 2min | ETA: 0min | Loss: 0.1802 | Acc_t:  0.9330 | IOU_t:  0.8807 | IOU_k:  0.8738
+
+Epoch: [23 | 30] LR: 0.000000
+(1/125) Batch: 3.734s | TOTAL: 0min | ETA: 8min | Loss: 0.1910 | Acc_t:  0.9316 | IOU_t:  0.8912 | IOU_k:  0.8588
+(21/125) Batch: 1.231s | TOTAL: 0min | ETA: 2min | Loss: 0.1807 | Acc_t:  0.9257 | IOU_t:  0.8754 | IOU_k:  0.8644
+(41/125) Batch: 1.171s | TOTAL: 1min | ETA: 2min | Loss: 0.1780 | Acc_t:  0.9171 | IOU_t:  0.8661 | IOU_k:  0.8581
+(61/125) Batch: 1.150s | TOTAL: 1min | ETA: 1min | Loss: 0.1773 | Acc_t:  0.9196 | IOU_t:  0.8680 | IOU_k:  0.8584
+(81/125) Batch: 1.142s | TOTAL: 2min | ETA: 1min | Loss: 0.1885 | Acc_t:  0.9227 | IOU_t:  0.8686 | IOU_k:  0.8635
+(101/125) Batch: 1.133s | TOTAL: 2min | ETA: 0min | Loss: 0.1879 | Acc_t:  0.9265 | IOU_t:  0.8744 | IOU_k:  0.8682
+(121/125) Batch: 1.126s | TOTAL: 2min | ETA: 0min | Loss: 0.1879 | Acc_t:  0.9281 | IOU_t:  0.8771 | IOU_k:  0.8687
+
+Epoch: [24 | 30] LR: 0.000000
+(1/125) Batch: 2.947s | TOTAL: 0min | ETA: 6min | Loss: 0.0787 | Acc_t:  0.9484 | IOU_t:  0.9074 | IOU_k:  0.8852
+(21/125) Batch: 1.201s | TOTAL: 0min | ETA: 2min | Loss: 0.1419 | Acc_t:  0.9465 | IOU_t:  0.9063 | IOU_k:  0.8866
+(41/125) Batch: 1.139s | TOTAL: 1min | ETA: 2min | Loss: 0.1743 | Acc_t:  0.9414 | IOU_t:  0.8989 | IOU_k:  0.8853
+(61/125) Batch: 1.131s | TOTAL: 1min | ETA: 1min | Loss: 0.1747 | Acc_t:  0.9375 | IOU_t:  0.8918 | IOU_k:  0.8785
+(81/125) Batch: 1.126s | TOTAL: 2min | ETA: 1min | Loss: 0.1809 | Acc_t:  0.9368 | IOU_t:  0.8870 | IOU_k:  0.8798
+(101/125) Batch: 1.124s | TOTAL: 2min | ETA: 0min | Loss: 0.1848 | Acc_t:  0.9368 | IOU_t:  0.8876 | IOU_k:  0.8779
+(121/125) Batch: 1.120s | TOTAL: 2min | ETA: 0min | Loss: 0.1907 | Acc_t:  0.9354 | IOU_t:  0.8864 | IOU_k:  0.8753
+
+Epoch: [25 | 30] LR: 0.000000
+(1/125) Batch: 4.389s | TOTAL: 0min | ETA: 9min | Loss: 0.1153 | Acc_t:  0.9320 | IOU_t:  0.8712 | IOU_k:  0.8681
+(21/125) Batch: 1.286s | TOTAL: 0min | ETA: 2min | Loss: 0.1316 | Acc_t:  0.9239 | IOU_t:  0.8737 | IOU_k:  0.8617
+(41/125) Batch: 1.199s | TOTAL: 1min | ETA: 2min | Loss: 0.1445 | Acc_t:  0.9258 | IOU_t:  0.8771 | IOU_k:  0.8639
+(61/125) Batch: 1.171s | TOTAL: 1min | ETA: 1min | Loss: 0.1468 | Acc_t:  0.9274 | IOU_t:  0.8803 | IOU_k:  0.8649
+(81/125) Batch: 1.155s | TOTAL: 2min | ETA: 1min | Loss: 0.1668 | Acc_t:  0.9271 | IOU_t:  0.8766 | IOU_k:  0.8698
+(101/125) Batch: 1.145s | TOTAL: 2min | ETA: 0min | Loss: 0.1728 | Acc_t:  0.9284 | IOU_t:  0.8781 | IOU_k:  0.8696
+(121/125) Batch: 1.134s | TOTAL: 2min | ETA: 0min | Loss: 0.1724 | Acc_t:  0.9293 | IOU_t:  0.8795 | IOU_k:  0.8707
+
+Epoch: [26 | 30] LR: 0.000000
+(1/125) Batch: 3.216s | TOTAL: 0min | ETA: 7min | Loss: 0.0960 | Acc_t:  0.9446 | IOU_t:  0.8900 | IOU_k:  0.8383
+(21/125) Batch: 1.200s | TOTAL: 0min | ETA: 2min | Loss: 0.1628 | Acc_t:  0.9415 | IOU_t:  0.8943 | IOU_k:  0.8741
+(41/125) Batch: 1.147s | TOTAL: 1min | ETA: 2min | Loss: 0.1705 | Acc_t:  0.9392 | IOU_t:  0.8922 | IOU_k:  0.8752
+(61/125) Batch: 1.137s | TOTAL: 1min | ETA: 1min | Loss: 0.1790 | Acc_t:  0.9330 | IOU_t:  0.8841 | IOU_k:  0.8741
+(81/125) Batch: 1.128s | TOTAL: 2min | ETA: 1min | Loss: 0.1903 | Acc_t:  0.9274 | IOU_t:  0.8773 | IOU_k:  0.8684
+(101/125) Batch: 1.126s | TOTAL: 2min | ETA: 0min | Loss: 0.1879 | Acc_t:  0.9274 | IOU_t:  0.8782 | IOU_k:  0.8680
+(121/125) Batch: 1.122s | TOTAL: 2min | ETA: 0min | Loss: 0.1908 | Acc_t:  0.9285 | IOU_t:  0.8795 | IOU_k:  0.8689
+
+Epoch: [27 | 30] LR: 0.000000
+(1/125) Batch: 3.951s | TOTAL: 0min | ETA: 8min | Loss: 0.1080 | Acc_t:  0.9273 | IOU_t:  0.8818 | IOU_k:  0.8442
+(21/125) Batch: 1.261s | TOTAL: 0min | ETA: 2min | Loss: 0.1555 | Acc_t:  0.9452 | IOU_t:  0.9012 | IOU_k:  0.8849
+(41/125) Batch: 1.189s | TOTAL: 1min | ETA: 2min | Loss: 0.1720 | Acc_t:  0.9384 | IOU_t:  0.8933 | IOU_k:  0.8766
+(61/125) Batch: 1.172s | TOTAL: 1min | ETA: 1min | Loss: 0.1770 | Acc_t:  0.9380 | IOU_t:  0.8920 | IOU_k:  0.8787
+(81/125) Batch: 1.156s | TOTAL: 2min | ETA: 1min | Loss: 0.1813 | Acc_t:  0.9367 | IOU_t:  0.8883 | IOU_k:  0.8785
+(101/125) Batch: 1.146s | TOTAL: 2min | ETA: 0min | Loss: 0.1794 | Acc_t:  0.9371 | IOU_t:  0.8886 | IOU_k:  0.8774
+(121/125) Batch: 1.142s | TOTAL: 2min | ETA: 0min | Loss: 0.1815 | Acc_t:  0.9348 | IOU_t:  0.8848 | IOU_k:  0.8753
+
+Epoch: [28 | 30] LR: 0.000000
+(1/125) Batch: 2.768s | TOTAL: 0min | ETA: 6min | Loss: 0.1005 | Acc_t:  0.9290 | IOU_t:  0.8769 | IOU_k:  0.8603
+(21/125) Batch: 1.220s | TOTAL: 0min | ETA: 2min | Loss: 0.1989 | Acc_t:  0.9361 | IOU_t:  0.8823 | IOU_k:  0.8773
+(41/125) Batch: 1.164s | TOTAL: 1min | ETA: 2min | Loss: 0.1949 | Acc_t:  0.9359 | IOU_t:  0.8864 | IOU_k:  0.8763
+(61/125) Batch: 1.145s | TOTAL: 1min | ETA: 1min | Loss: 0.1826 | Acc_t:  0.9354 | IOU_t:  0.8857 | IOU_k:  0.8755
+(81/125) Batch: 1.132s | TOTAL: 2min | ETA: 1min | Loss: 0.1839 | Acc_t:  0.9357 | IOU_t:  0.8870 | IOU_k:  0.8729
+(101/125) Batch: 1.124s | TOTAL: 2min | ETA: 0min | Loss: 0.1911 | Acc_t:  0.9365 | IOU_t:  0.8869 | IOU_k:  0.8750
+(121/125) Batch: 1.118s | TOTAL: 2min | ETA: 0min | Loss: 0.1926 | Acc_t:  0.9345 | IOU_t:  0.8843 | IOU_k:  0.8749
+
+Epoch: [29 | 30] LR: 0.000000
+(1/125) Batch: 2.894s | TOTAL: 0min | ETA: 6min | Loss: 0.0704 | Acc_t:  0.9631 | IOU_t:  0.9259 | IOU_k:  0.8729
+(21/125) Batch: 1.226s | TOTAL: 0min | ETA: 2min | Loss: 0.1469 | Acc_t:  0.9408 | IOU_t:  0.8925 | IOU_k:  0.8845
+(41/125) Batch: 1.157s | TOTAL: 1min | ETA: 2min | Loss: 0.1538 | Acc_t:  0.9354 | IOU_t:  0.8854 | IOU_k:  0.8747
+(61/125) Batch: 1.141s | TOTAL: 1min | ETA: 1min | Loss: 0.1538 | Acc_t:  0.9345 | IOU_t:  0.8852 | IOU_k:  0.8749
+(81/125) Batch: 1.127s | TOTAL: 2min | ETA: 1min | Loss: 0.1711 | Acc_t:  0.9324 | IOU_t:  0.8811 | IOU_k:  0.8730
+(101/125) Batch: 1.120s | TOTAL: 2min | ETA: 0min | Loss: 0.1720 | Acc_t:  0.9318 | IOU_t:  0.8809 | IOU_k:  0.8726
+(121/125) Batch: 1.116s | TOTAL: 2min | ETA: 0min | Loss: 0.1743 | Acc_t:  0.9325 | IOU_t:  0.8813 | IOU_k:  0.8732
+
+Epoch: [30 | 30] LR: 0.000000
+(1/125) Batch: 3.645s | TOTAL: 0min | ETA: 8min | Loss: 0.0665 | Acc_t:  0.9586 | IOU_t:  0.9211 | IOU_k:  0.8975
+(21/125) Batch: 1.223s | TOTAL: 0min | ETA: 2min | Loss: 0.1394 | Acc_t:  0.9449 | IOU_t:  0.8976 | IOU_k:  0.8833
+(41/125) Batch: 1.161s | TOTAL: 1min | ETA: 2min | Loss: 0.1642 | Acc_t:  0.9431 | IOU_t:  0.8943 | IOU_k:  0.8854
+(61/125) Batch: 1.148s | TOTAL: 1min | ETA: 1min | Loss: 0.1715 | Acc_t:  0.9392 | IOU_t:  0.8864 | IOU_k:  0.8789
+(81/125) Batch: 1.135s | TOTAL: 2min | ETA: 1min | Loss: 0.1742 | Acc_t:  0.9360 | IOU_t:  0.8836 | IOU_k:  0.8764
+(101/125) Batch: 1.128s | TOTAL: 2min | ETA: 0min | Loss: 0.1792 | Acc_t:  0.9361 | IOU_t:  0.8845 | IOU_k:  0.8753
+(121/125) Batch: 1.122s | TOTAL: 2min | ETA: 0min | Loss: 0.1844 | Acc_t:  0.9367 | IOU_t:  0.8852 | IOU_k:  0.8768

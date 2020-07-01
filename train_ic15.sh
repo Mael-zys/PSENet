@@ -1,0 +1,1 @@
+python -u train_ic15.py --pretrain checkpoints/ic15_resnet50_bs_8_ep_60_mlt/checkpoint.pth.tar --lr 1e-4
